@@ -1,0 +1,13 @@
+@import "sprite";
+// 静态检查
+// 静态检查就是对源代码进行语法和代码规范的检查
+// 它能确保代码的一致性，定位代码中的错误，减少冗余代码，以及避免出现偷懒的写代码方式
+p {
+	color: #000;
+	font-size: 12px;
+}
+
+.app-android {
+	display: inline-block;
+	@include sprite($app-android);
+}

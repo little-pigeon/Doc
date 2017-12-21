@@ -1,0 +1,211 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$app-android-name: 'app-android';
+$app-android-x: 63px;
+$app-android-y: 0px;
+$app-android-offset-x: -63px;
+$app-android-offset-y: 0px;
+$app-android-width: 27px;
+$app-android-height: 31px;
+$app-android-total-width: 116px;
+$app-android-total-height: 76px;
+$app-android-image: 'assets/imgs/sprite.png';
+$app-android: (63px, 0px, -63px, 0px, 27px, 31px, 116px, 76px, 'assets/imgs/sprite.png', 'app-android', );
+$app-ios-name: 'app-ios';
+$app-ios-x: 90px;
+$app-ios-y: 0px;
+$app-ios-offset-x: -90px;
+$app-ios-offset-y: 0px;
+$app-ios-width: 26px;
+$app-ios-height: 32px;
+$app-ios-total-width: 116px;
+$app-ios-total-height: 76px;
+$app-ios-image: 'assets/imgs/sprite.png';
+$app-ios: (90px, 0px, -90px, 0px, 26px, 32px, 116px, 76px, 'assets/imgs/sprite.png', 'app-ios', );
+$award-sm-name: 'award-sm';
+$award-sm-x: 90px;
+$award-sm-y: 32px;
+$award-sm-offset-x: -90px;
+$award-sm-offset-y: -32px;
+$award-sm-width: 16px;
+$award-sm-height: 16px;
+$award-sm-total-width: 116px;
+$award-sm-total-height: 76px;
+$award-sm-image: 'assets/imgs/sprite.png';
+$award-sm: (90px, 32px, -90px, -32px, 16px, 16px, 116px, 76px, 'assets/imgs/sprite.png', 'award-sm', );
+$award-name: 'award';
+$award-x: 0px;
+$award-y: 0px;
+$award-offset-x: 0px;
+$award-offset-y: 0px;
+$award-width: 33px;
+$award-height: 30px;
+$award-total-width: 116px;
+$award-total-height: 76px;
+$award-image: 'assets/imgs/sprite.png';
+$award: (0px, 0px, 0px, 0px, 33px, 30px, 116px, 76px, 'assets/imgs/sprite.png', 'award', );
+$checkbox-name: 'checkbox';
+$checkbox-x: 16px;
+$checkbox-y: 60px;
+$checkbox-offset-x: -16px;
+$checkbox-offset-y: -60px;
+$checkbox-width: 14px;
+$checkbox-height: 14px;
+$checkbox-total-width: 116px;
+$checkbox-total-height: 76px;
+$checkbox-image: 'assets/imgs/sprite.png';
+$checkbox: (16px, 60px, -16px, -60px, 14px, 14px, 116px, 76px, 'assets/imgs/sprite.png', 'checkbox', );
+$checked-name: 'checked';
+$checked-x: 30px;
+$checked-y: 60px;
+$checked-offset-x: -30px;
+$checked-offset-y: -60px;
+$checked-width: 14px;
+$checked-height: 14px;
+$checked-total-width: 116px;
+$checked-total-height: 76px;
+$checked-image: 'assets/imgs/sprite.png';
+$checked: (30px, 60px, -30px, -60px, 14px, 14px, 116px, 76px, 'assets/imgs/sprite.png', 'checked', );
+$choose-sm-name: 'choose-sm';
+$choose-sm-x: 0px;
+$choose-sm-y: 60px;
+$choose-sm-offset-x: 0px;
+$choose-sm-offset-y: -60px;
+$choose-sm-width: 16px;
+$choose-sm-height: 16px;
+$choose-sm-total-width: 116px;
+$choose-sm-total-height: 76px;
+$choose-sm-image: 'assets/imgs/sprite.png';
+$choose-sm: (0px, 60px, 0px, -60px, 16px, 16px, 116px, 76px, 'assets/imgs/sprite.png', 'choose-sm', );
+$choose-name: 'choose';
+$choose-x: 0px;
+$choose-y: 30px;
+$choose-offset-x: 0px;
+$choose-offset-y: -30px;
+$choose-width: 29px;
+$choose-height: 30px;
+$choose-total-width: 116px;
+$choose-total-height: 76px;
+$choose-image: 'assets/imgs/sprite.png';
+$choose: (0px, 30px, 0px, -30px, 29px, 30px, 116px, 76px, 'assets/imgs/sprite.png', 'choose', );
+$close-btn-name: 'close-btn';
+$close-btn-x: 90px;
+$close-btn-y: 48px;
+$close-btn-offset-x: -90px;
+$close-btn-offset-y: -48px;
+$close-btn-width: 12px;
+$close-btn-height: 12px;
+$close-btn-total-width: 116px;
+$close-btn-total-height: 76px;
+$close-btn-image: 'assets/imgs/sprite.png';
+$close-btn: (90px, 48px, -90px, -48px, 12px, 12px, 116px, 76px, 'assets/imgs/sprite.png', 'close-btn', );
+$collect-name: 'collect';
+$collect-x: 63px;
+$collect-y: 31px;
+$collect-offset-x: -63px;
+$collect-offset-y: -31px;
+$collect-width: 16px;
+$collect-height: 16px;
+$collect-total-width: 116px;
+$collect-total-height: 76px;
+$collect-image: 'assets/imgs/sprite.png';
+$collect: (63px, 31px, -63px, -31px, 16px, 16px, 116px, 76px, 'assets/imgs/sprite.png', 'collect', );
+$date-md-name: 'date-md';
+$date-md-x: 29px;
+$date-md-y: 30px;
+$date-md-offset-x: -29px;
+$date-md-offset-y: -30px;
+$date-md-width: 28px;
+$date-md-height: 28px;
+$date-md-total-width: 116px;
+$date-md-total-height: 76px;
+$date-md-image: 'assets/imgs/sprite.png';
+$date-md: (29px, 30px, -29px, -30px, 28px, 28px, 116px, 76px, 'assets/imgs/sprite.png', 'date-md', );
+$date-name: 'date';
+$date-x: 33px;
+$date-y: 0px;
+$date-offset-x: -33px;
+$date-offset-y: 0px;
+$date-width: 30px;
+$date-height: 30px;
+$date-total-width: 116px;
+$date-total-height: 76px;
+$date-image: 'assets/imgs/sprite.png';
+$date: (33px, 0px, -33px, 0px, 30px, 30px, 116px, 76px, 'assets/imgs/sprite.png', 'date', );
+$spritesheet-width: 116px;
+$spritesheet-height: 76px;
+$spritesheet-image: 'assets/imgs/sprite.png';
+$spritesheet-sprites: ($app-android, $app-ios, $award-sm, $award, $checkbox, $checked, $choose-sm, $choose, $close-btn, $collect, $date-md, $date, );
+$spritesheet: (116px, 76px, 'assets/imgs/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

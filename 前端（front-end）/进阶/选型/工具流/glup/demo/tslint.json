@@ -1,0 +1,27 @@
+{
+	"defaultSeverity": "warn",
+	"extends": [
+		"tslint:recommended"
+	],
+	"jsRules": {},
+	"rules": {
+		"semicolon": [
+			true, "always",
+			"ignore-interfaces"
+		],
+		"quotemark": [
+				true,
+				"single"
+		],
+		"no-empty": false,
+		"object-literal-sort-keys": false,
+		"member-ordering": [
+				false
+		],
+		"space-before-function-paren": false,
+		"no-unused-expression": false,
+		"object-literal-shorthand": false,
+		"no-console": false
+	},
+	"rulesDirectory": []
+}
