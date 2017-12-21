@@ -1,0 +1,50 @@
+路黄泉
+前端（front-end）
+	-基础（单元化编程）
+		-html
+			-模板
+			-组件
+		-css
+			-scss/less等
+		-javascript
+			-typeScript/coffeeScript
+	-进阶（工程化编程）
+		-选型
+			-工具流
+				-gulp(任务流工具)+webpack(打包工具)
+			-语法规范
+				-scss
+				-ts
+			-框架
+				-模板框架
+				-ui框架
+				-项目框架
+		-搭建框架
+			-资源处理自动化
+				-css、js资源
+					-语法检查
+					-编译
+						-css
+							-前缀的添加和去除
+							-合并
+						-javascript
+							-提取共用
+							-分割按需
+							-合并
+					-压缩
+					-添加版本号
+				-图片资源
+					-base64/sprite图
+					-压缩
+					-版本号
+		-开发流程
+			-src -> dev -> dist
+				-源码
+			-dev
+				-带sourceMap的已经编译了的源码
+				-本地服务器的资源所在地
+			-dist
+				-不带sourceMap的已经编译了的源码
+				-线上资源的所在地
+		-部署
+			
