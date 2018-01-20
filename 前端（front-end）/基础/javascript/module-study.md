@@ -40,9 +40,12 @@ import  // 导入模块
 `
 /*
 1、将jQuery和window作为参数传入，从而避免了模块内部有外部变量的引用，实现了模块的独立性和封装。同时也避免了JavaScript 解释器反向遍历作用域链来查找jQuery变量和window等隐式全局变量的声明（如果解释器反向遍历，找不到这两个变量声明，则会假定这两个变量为全局变量）
+
 2、将引用的对象作为参数，使它们得以和函数内的其它局部变量区分开来；同时还可以给全局对象起一个别名，比如 “q”，“w”
+
 3、引用参数module，是利于模块的扩展，方便我们数个文件中分别编写一个模块的不同部分，比如module.chidlA，module.chidlB，松耦合扩展，紧耦合扩展；
 */
+
 ;(function (q, w, m) { // 01
   // q is jQuery
   // w is window
@@ -64,6 +67,7 @@ import  // 导入模块
 })(jQuery, window, module || {});
 
 // 01和02的栗子的区别
+
 // 前者需将module绑定到window变量上；后者则是将module绑定到变量MODULE上
 
 var MODULE = (function () { // 02
@@ -83,7 +87,9 @@ var MODULE = (function () { // 02
 }());
 
 // 03和前两者的区别
+
 // 03实现了模块环境探测功能，使得模块可以运行在CMD/AMD/一般环境中
+
 ( function( global, factory ) { // 03
 
     // 这是jquery的模块环境探测处理
