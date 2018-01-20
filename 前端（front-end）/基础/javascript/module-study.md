@@ -37,7 +37,7 @@ import  // 导入模块
 ## 2、模块模式，也译为模组模式
 是一种通用的对代码进行模块化组织与定义的方式。
 
-`
+```
 /*
 1、将jQuery和window作为参数传入，从而避免了模块内部有外部变量的引用，实现了模块的独立性和封装。同时也避免了JavaScript 解释器反向遍历作用域链来查找jQuery变量和window等隐式全局变量的声明（如果解释器反向遍历，找不到这两个变量声明，则会假定这两个变量为全局变量）
 
@@ -67,7 +67,6 @@ import  // 导入模块
 })(jQuery, window, module || {});
 
 // 01和02的栗子的区别
-
 // 前者需将module绑定到window变量上；后者则是将module绑定到变量MODULE上
 
 var MODULE = (function () { // 02
@@ -87,7 +86,6 @@ var MODULE = (function () { // 02
 }());
 
 // 03和前两者的区别
-
 // 03实现了模块环境探测功能，使得模块可以运行在CMD/AMD/一般环境中
 
 ( function( global, factory ) { // 03
@@ -116,7 +114,7 @@ var MODULE = (function () { // 02
 } )( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
      
 })
-`
+```
 
 ## 2、模块的优点
 a、大化小，更易于维护
