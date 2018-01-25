@@ -113,6 +113,19 @@ var MODULE = (function () { // 02
 
 } )( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
      
+    // 实现模块的 
+    // 为 jQuery 变量规定新的名称
+    jQuery.noConflict = function( deep ) {
+        if ( window.$ === jQuery ) {
+            window.$ = _$;
+        }
+
+        if ( deep && window.jQuery === jQuery ) {
+            window.jQuery = _jQuery;
+        }
+
+        return jQuery;
+    };
 })
 ```
 
